@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/creature-ui/static/css/main.c23286eb.css",
+    "main.js": "/creature-ui/static/js/main.cc2002d3.js",
+    "static/js/787.217e3bd7.chunk.js": "/creature-ui/static/js/787.217e3bd7.chunk.js",
+    "index.html": "/creature-ui/index.html",
+    "main.c23286eb.css.map": "/creature-ui/static/css/main.c23286eb.css.map",
+    "main.cc2002d3.js.map": "/creature-ui/static/js/main.cc2002d3.js.map",
+    "787.217e3bd7.chunk.js.map": "/creature-ui/static/js/787.217e3bd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c23286eb.css",
+    "static/js/main.cc2002d3.js"
+  ]
+}
