@@ -137,6 +137,7 @@ import CardList from './components/card-list/card-list.components';
 import SearchBox from './components/search-box/search-box.component';
 import { useEffect, useState } from 'react';
 import './App.css';
+import Scroll from './components/scroll/Scroll';
 
 const App = () => {
 
@@ -193,9 +194,10 @@ const App = () => {
         onChangeHandler = { onStringChange }
         placeholder = "StringChange"
       /> */}
-
-      <CardList monsters = { filteredMonsters }/>
-      {console.log(filteredMonsters, "Returned___filteredmonsters")}
+      <Scroll>
+        <CardList monsters = { filteredMonsters }/>
+        {console.log(filteredMonsters, "Returned___filteredmonsters")}
+      </Scroll>
         
     </div> 
   );
