@@ -160,10 +160,16 @@ const App = () => {
     });
     
     setFilterMonsters(newFilteredMonsters);
-    console.log("filteredMonsters");
+    console.log(monsters, "Monsters");
+    console.log(filteredMonsters, "filteredmonsters")
+
+    // return(
+    //   console.log(filteredMonsters, "filteredmonsters")
+    // )
   }, [monsters, searchField]);
 
   const onSearchChange = (event) => {
+    console.log("Search");
     const searchFieldString = event.target.value.toLowerCase();
     setSearchField(searchFieldString);
   }
@@ -174,10 +180,10 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className='app-title'>Monsters-Rolodex</h1>
+      <h1 className='app-title'>Creature UI</h1>
       <SearchBox 
         onChangeHandler = { onSearchChange }
-        placeholder = "Search-Monsters"
+        placeholder = "Type to Search"
         className = "search-box"
       />
 
@@ -189,6 +195,7 @@ const App = () => {
       /> */}
 
       <CardList monsters = { filteredMonsters }/>
+      {console.log(filteredMonsters, "Returned___filteredmonsters")}
         
     </div> 
   );
