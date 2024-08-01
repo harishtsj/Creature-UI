@@ -152,7 +152,7 @@ const App = () => {
     console.log("Fetch is firing");
     fetch('https://jsonplaceholder.typicode.com/users')
     .then((resp) => resp.json())
-    .then((users) => setMonsters(users))
+    .then((users) => setMonsters(users));
   },[])
 
   useEffect(() => {
@@ -161,8 +161,9 @@ const App = () => {
     });
     
     setFilterMonsters(newFilteredMonsters);
-    console.log(monsters, "Monsters");
-    console.log(filteredMonsters, "filteredmonsters")
+    console.log(monsters, "UseEffectsMonsters");
+    console.log(filteredMonsters, "UseEffectsFilteredmonsters")
+    console.log(newFilteredMonsters, "useEffectsNewFilteredmonsters")
 
     // return(
     //   console.log(filteredMonsters, "filteredmonsters")
@@ -196,6 +197,7 @@ const App = () => {
       /> */}
       <Scroll>
         <CardList monsters = { filteredMonsters }/>
+        {console.log(monsters, "Returned___Monsters")}
         {console.log(filteredMonsters, "Returned___filteredmonsters")}
       </Scroll>
         
