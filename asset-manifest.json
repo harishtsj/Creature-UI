@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/creature-ui/static/css/main.45b2b7f2.css",
-    "main.js": "/creature-ui/static/js/main.abbaebf8.js",
+    "main.css": "/creature-ui/static/css/main.dff33c78.css",
+    "main.js": "/creature-ui/static/js/main.d4c68297.js",
     "static/js/787.217e3bd7.chunk.js": "/creature-ui/static/js/787.217e3bd7.chunk.js",
     "index.html": "/creature-ui/index.html",
-    "main.45b2b7f2.css.map": "/creature-ui/static/css/main.45b2b7f2.css.map",
-    "main.abbaebf8.js.map": "/creature-ui/static/js/main.abbaebf8.js.map",
+    "main.dff33c78.css.map": "/creature-ui/static/css/main.dff33c78.css.map",
+    "main.d4c68297.js.map": "/creature-ui/static/js/main.d4c68297.js.map",
     "787.217e3bd7.chunk.js.map": "/creature-ui/static/js/787.217e3bd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45b2b7f2.css",
-    "static/js/main.abbaebf8.js"
+    "static/css/main.dff33c78.css",
+    "static/js/main.d4c68297.js"
   ]
 }
